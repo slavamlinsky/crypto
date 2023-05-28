@@ -7,7 +7,7 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 і Docker не встиг зробити (але там лише Node.Js) 
 пишу зараз тестове завдання на вакансію на React + Formik (теж на завтра).
 
-> Link to: 🔍 [API]([http://rss-reader.speaking.odessa.ua](http://btc.speaking.odessa.ua/api/))
+> Link to: 🔍 [API]http://btc.speaking.odessa.ua/api/
 
 ## How to check App functions  🚀
 
