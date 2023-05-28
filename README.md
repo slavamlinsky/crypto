@@ -21,9 +21,9 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 @GET [/rate/chf](http://btc.speaking.odessa.ua/api/rate/chf)
 
-@POST [/subscribe]http://btc.speaking.odessa.ua/api/subscribe
+@POST [/subscribe] http://btc.speaking.odessa.ua/api/subscribe
 
-@POST [/sendEmails]http://btc.speaking.odessa.ua/api/sendEmails
+@POST [/sendEmails] http://btc.speaking.odessa.ua/api/sendEmails
 
 
 ## В коді все с коментарями, але можу і сюди винести:
