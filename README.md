@@ -3,6 +3,7 @@
 Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 Зробив на Node.Js (бо потрохи вже забуваю PHP) і часу було обмаль (лише в неділю почав) 
+
 і Docker не встиг зробити (але там лише Node.Js) 
 пишу зараз тестове завдання на вакансію на React + Formik (теж на завтра).
 
