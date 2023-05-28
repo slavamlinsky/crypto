@@ -13,7 +13,7 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 ## How to check App functions  🚀
 
-[@GET/rate]http://btc.speaking.odessa.ua/api/rate/
+@GET[/rate]http://btc.speaking.odessa.ua/api/rate/
 
 [@GET/rate/usd]http://btc.speaking.odessa.ua/api/rate/usd
 
@@ -26,7 +26,7 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 ## В коді все с коментарями, але можу і сюди винести:
 
-1. `@GET/rate` Завантажимо актуальний курс BTC_UAH по API з сервера api.exchangerate.host
+1. `@GET/rate` беремо курс BTC_UAH по API з сервера api.exchangerate.host
 після завантаження - відправляємо користувачи.
 2. `@GET/rate/:coin` Завантажимо актуальний курс *любої валюти EUR,USD,CAD,JPY,UAH,...* по BTC по API з сервера api.exchangerate.host
 так само але ще і можна вказати до якої валюти курс біткойна цікавить
