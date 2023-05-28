@@ -23,7 +23,8 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 [@POST/sendEmails]http://btc.speaking.odessa.ua/api/sendEmails
 
-##В коді все с коментарями, але можу і сюди винести:
+
+## В коді все с коментарями, але можу і сюди винести:
 
 1. `@GET/rate` Завантажимо актуальний курс BTC_UAH по API з сервера api.exchangerate.host
 після завантаження - відправляємо користувачи.
