@@ -1,4 +1,4 @@
-# Crypto API for SoftWare Engineering School 3.0
+## Crypto API for SoftWare Engineering School 3.0
 
 Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
@@ -23,15 +23,14 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 [@POST/sendEmails]http://btc.speaking.odessa.ua/api/sendEmails
 
-###В коді все с коментарями, але можу і сюди винести:
-```
-1. @GET /rate Завантажимо актуальний курс BTC_UAH по API з сервера api.exchangerate.host
+##В коді все с коментарями, але можу і сюди винести:
+
+1. `@GET/rate` Завантажимо актуальний курс BTC_UAH по API з сервера api.exchangerate.host
 після завантаження - відправляємо користувачи.
-2. @GET /rate/:coin Завантажимо актуальний курс *любої валюти EUR,USD,CAD,JPY,UAH,...* по BTC по API з сервера api.exchangerate.host
+2. `@GET/rate/:coin` Завантажимо актуальний курс *любої валюти EUR,USD,CAD,JPY,UAH,...* по BTC по API з сервера api.exchangerate.host
 так само але ще і можна вказати до якої валюти курс біткойна цікавить
-3. @POST /subscribe Додаємо нового підписника (email адресу) в текстовий файл (з перевіркою дублювання та валідацією)
+3. `@POST/subscribe` Додаємо нового підписника (email адресу) в текстовий файл (з перевіркою дублювання та валідацією)
 приймаємо email адресу -> перевіряємо що це дійсно email (регулярний вираз) -> шукаємо такий в файлі -> якщо не знайшли додаємо в кінець (і додаємо \n - кінець строки)
-4. @POST /sendEmails Відправляємо всім підписникам email Листа з поточним курсом пари BTC_UAH
+4. `@POST/sendEmails` Відправляємо всім підписникам email Листа з поточним курсом пари BTC_UAH
 в циклі читаємо підписників із нашого txt-файлу та за допомогою nodemailer - відправляємо кожному користувачу листа.
-для перевірки відправки Email використав сервіс "ethereal.email". все працює ) 
-```
+для перевірки відправки Email використав сервіс "ethereal.email". все працює :)
