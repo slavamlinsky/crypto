@@ -13,7 +13,7 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 ## How to check App functions  🚀
 
-@GET[/rate]http://btc.speaking.odessa.ua/api/rate/
+@GET [/rate]http://btc.speaking.odessa.ua/api/rate/
 
 [@GET/rate/usd]http://btc.speaking.odessa.ua/api/rate/usd
 
