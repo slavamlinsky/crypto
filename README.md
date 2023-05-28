@@ -9,7 +9,7 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 Зробив можливість дивитися курс не тільки у гривні (після /rate/ пишіть будь-яку валюту).
 
-> Link to: 🔍 [API]http://btc.speaking.odessa.ua/api/rate/
+>  🔍 Base URL:  btc.speaking.odessa.ua/api
 
 ## How to check App functions  🚀
 
@@ -21,9 +21,9 @@ Crypto Api for BTC subscribers (Genesis &amp; KMA)
 
 @GET [/rate/chf](http://btc.speaking.odessa.ua/api/rate/chf)
 
-@POST [/subscribe] http://btc.speaking.odessa.ua/api/subscribe
+@POST [/subscribe] 
 
-@POST [/sendEmails] http://btc.speaking.odessa.ua/api/sendEmails
+@POST [/sendEmails] 
 
 
 ## В коді все с коментарями, але можу і сюди винести:
