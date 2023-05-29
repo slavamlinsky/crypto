@@ -14,13 +14,13 @@ Docker трохи не встиг зробити (але там лише Node.Js
 
 ## How to check App functions  🚀
 
-@GET [/rate](http://btc.speaking.odessa.ua/api/rate/)
+@GET [/rate](https://btc.speaking.odessa.ua/api/rate/)
 
-@GET [/rate/usd](http://btc.speaking.odessa.ua/api/rate/usd)
+@GET [/rate/usd](https://btc.speaking.odessa.ua/api/rate/usd)
 
-@GET [/rate/eur](http://btc.speaking.odessa.ua/api/rate/eur)
+@GET [/rate/eur](https://btc.speaking.odessa.ua/api/rate/eur)
 
-@GET [/rate/chf](http://btc.speaking.odessa.ua/api/rate/chf)
+@GET [/rate/chf](https://btc.speaking.odessa.ua/api/rate/chf)
 
 @POST [/subscribe] 
 
